@@ -1,9 +1,13 @@
 import React from "react";
 
-function Taboptions() {
+
+function Taboptions(props) {
+    function HandleClick() {
+        props.setActiveTab("NightLife");
+    }
     return (
         <div >
-            this is Taboptions
+            <button onClick={HandleClick}> onClick</button>
         </div>);
 
 }
