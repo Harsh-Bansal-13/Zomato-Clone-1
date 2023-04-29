@@ -21,13 +21,13 @@ function HomePage() {
     </div>);
 
 }
-const getCorrectScreen = (tab) => {
-  switch (tab) {
+const getCorrectScreen = (tab_name) => {
+  switch (tab_name) {
     case "Delivery":
       return <Delivery></Delivery>;
     case "Dining Out":
       return <DiningOut></DiningOut>;
-    case "NightLife":
+    case "Night Life":
       return <NightLife></NightLife>;
     default:
       return <Delivery></Delivery>;
