@@ -15,7 +15,6 @@ function HomePage() {
     <div>
       <Header></Header>
       <Taboptions activeTab={activeTab} setActiveTab={setActiveTab}></Taboptions>
-      this is HomePage
       {getCorrectScreen(activeTab)}
       <Footer></Footer>
     </div>);

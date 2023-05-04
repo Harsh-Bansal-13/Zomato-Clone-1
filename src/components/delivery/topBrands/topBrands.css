@@ -1,0 +1,21 @@
+@import "D:\Zomato Clone\zomato-clone\src\variables.css";
+
+.top-brands {
+    padding-top: 30px;
+}
+
+.top-brands-cover {
+    height: 12rem;
+    width: 12rem;
+    border-radius: 50%;
+    background-color: var(--primary-bg);
+    box-shadow: var(--collection-shadow);
+    border: 0.25px solid var(--border-white);
+}
+
+.top-brands-image {
+    border-radius: inherit;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
