@@ -2,8 +2,8 @@ import React from "react";
 
 function Footer() {
     return (
-        <div>
-            this is Footer
+        <div className="absolute-center">
+            Made with ❤️ by Harsh
         </div>);
 
 }

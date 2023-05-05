@@ -5,8 +5,8 @@
 }
 
 .top-brands-cover {
-    height: 12rem;
-    width: 12rem;
+    height: 150px;
+    width: 150px;
     border-radius: 50%;
     background-color: var(--primary-bg);
     box-shadow: var(--collection-shadow);
